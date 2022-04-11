@@ -11,7 +11,7 @@ public class User {
         this.listBookmark = new ArrayList<Bookmark>();
     }
 
-    public String toString(){
+    public String toString() {
         return String.format("Username: %s\nBookmarks: %s", nomeUser, listBookmark);
     }
 
